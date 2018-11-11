@@ -1,0 +1,109 @@
+#ProductList{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.product {
+    width: 300px;
+    float: left;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 5px 10px 8px #e0e0e0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.product-image img {
+    max-width: 110%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform .2s;
+}
+
+.product-image img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.product .product-title {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    z-index: 98;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.product .product-price {
+    padding: 10px;
+    background-color: rgba(45, 79, 115, 0.5);
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 98;
+}
+
+.product .product-title:hover {
+    font-weight: bold;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.product .product-title:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #2d4f73;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.product .product-title:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/* Pagination */
+.pagination-wrap {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.pagination-wrap .prev {
+    display: inline;
+    padding: 20px;
+    background-color: #2d4f73;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+
+.pagination-wrap .next {
+    display: inline;
+    padding: 20px;
+    background-color: #2d4f73;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}

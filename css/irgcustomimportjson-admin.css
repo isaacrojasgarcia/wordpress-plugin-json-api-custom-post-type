@@ -1,0 +1,192 @@
+.irgcustomimportjson_admin_container {
+    width: 100%;
+
+}
+
+.irgcustomimportjson_admin_container a {
+    text-decoration: none;
+}
+
+.irgcustomimportjson_div {
+    width: 97%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+
+}
+
+.irgcustomimportjson_div_half_left {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    float: left;
+}
+
+.irgcustomimportjson_div_half_right {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    float: right;
+}
+
+.irgcustomimportjson_div_warn {
+    width: 97%;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+
+}
+
+.irgcustomimportjson_div_succ {
+    width: 97%;
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+
+}
+
+.irgcustomimportjson_btn {
+    padding: 5px;
+    margin-top: 15px;
+    background-color: #f1f1f1;
+    color: #000000;
+    border: 1px solid #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.irgcustomimportjson_btn a {
+    text-decoration: none;
+}
+
+.irgcustomimportjson-no-border {
+    border-bottom: none;
+}
+
+.irgcustomimportjson_div tr.irgcustomimportjson_border_bottom td {
+    border-bottom: 1pt solid #ccc;
+    padding: 5px;
+}
+
+.irgcustomimportjson_div tr.irgcustomimportjson_border_bottom:hover {
+    background-color: #f1f1f1;
+}
+
+.irgcustomimportjson-dashboard-item {
+    border-bottom: 1pt solid #ccc;
+    padding: 5px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.irgcustomimportjson-dashboard-item:hover {
+    background-color: #f1f1f1;
+}
+
+.irgcustomimportjson_option {
+    width: 150px;
+    padding: 5px;
+    float: left;
+    font-size: 20px;
+}
+
+.pagination {
+    height: 40px;
+}
+
+.pagination .active {
+    background-color: #c0c0c0;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+dt {
+    margin-top: 30px;
+    width: 100%;
+}
+
+dt a {
+    width: 100%;
+}
+
+body {
+
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.lds-ellipsis div {
+    position: absolute;
+    top: 27px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #14b44e;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 6px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 6px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 26px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 45px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(19px, 0);
+    }
+}
